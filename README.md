@@ -7,7 +7,7 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
 <img src = "https://i.ibb.co/mG4mBxS/Whats-App-Image-2025-01-20-at-14-04-10.jpg"/>
 
 ## Concept Map
-<img src = "https://i.ibb.co/3TCMQQw/geotech-conceptmap-drawio.png"/>
+<img src = "https://i.ibb.co/yqcLjcH/geotech-conceptmap2-drawio-png.png"/>
 
 ## Technology Stack
 - **Frontend**: React.js, Tailwind CSS
@@ -146,7 +146,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 For any inquiries or support, please contact us at:
 - Email: support@geotech.com
-- GitHub: [GeoTech Repository](https://github.com/your-username/geotech)
+- GitHub: [GeoTech Repository](https://github.com/Neural-Ninjas5/sustainathon.git)
 
 ---
 
