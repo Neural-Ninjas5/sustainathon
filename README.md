@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# GeoTech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GeoTech is an innovative marketplace platform designed to empower users in transitioning to renewable energy by facilitating the purchase of solar panels. The platform offers advanced tools and features to calculate solar energy output and estimate the cost of setting up solar panels at a given location. With GeoTech, users can make informed decisions about their investment in solar energy and access essential documentation for various government and private schemes.
 
-## Available Scripts
+## Workflow
+![GeoTech Banner](../workflow.jpeg "GeoTech Platform")
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Marketplace for Solar Panels**
+   - A curated selection of high-quality solar panels available for purchase.
+   - Detailed product descriptions and reviews to help users make informed choices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. **Scheme Documentation**
+   - Access to detailed documentation of various solar energy schemes and subsidies offered by governments and private organizations.
 
-### `npm test`
+### 3. **Advanced Solar Energy Calculator**
+   - **Input Parameters**:
+     - Longitude and Latitude for precise location-based calculations.
+     - State of residence.
+     - Average monthly electricity bill.
+     - Total available rooftop area (in square meters or square feet).
+     - Investment budget.
+     - Required solar plant capacity (in kW).
+     - Sanctioned load (in kW).
+   - **Output**:
+     - Estimated photovoltaic output (PVout).
+     - Comprehensive cost analysis for solar panel installation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. **Machine Learning Model for Solar Metrics**
+   - The platform leverages an advanced machine learning model to calculate:
+     - **PVout**: Photovoltaic output.
+     - **DNI**: Direct Normal Irradiance.
+     - **GTI**: Global Tilted Irradiance.
+     - **GHI**: Global Horizontal Irradiance.
+     - **OPTA**: Optimal Tilt Angle.
+     - **DHI**: Diffuse Horizontal Irradiance.
+   - Provides precise and location-specific solar metrics for better decision-making.
 
-### `npm run build`
+### 5. **Cost Estimation Tools**
+   - Provides a breakdown of installation costs.
+   - Includes detailed insights into long-term savings and return on investment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Machine Learning**: Python-based advanced models for PV output prediction.
+- **APIs**: RESTful API integration for seamless data exchange.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Installation and Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+- Node.js (v14 or above)
+- MongoDB
+- Python (for machine learning model execution)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Steps to Run the Project Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/geotech.git
+   cd geotech
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies for the backend:
+   ```bash
+   cd backend
+   npm install
+   ```
 
-## Learn More
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Install dependencies for the frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Start the frontend development server:
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+6. Set up the machine learning model:
+   - Navigate to the `ml-model` directory.
+   - Install Python dependencies using `pip install -r requirements.txt`.
+   - Run the model server:
+     ```bash
+     python app.py
+     ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Configuration
+Update the `.env` files in both the `backend` and `frontend` directories with the appropriate configurations, such as database credentials and API keys.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
+1. Navigate to the homepage to explore available solar panels.
+2. Use the solar energy calculator to estimate your energy needs and costs.
+3. Access detailed documentation about schemes and subsidies.
+4. Add your selected solar panels to the cart and proceed to checkout.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes and push them to your forked repository.
+4. Submit a pull request for review.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
+For any inquiries or support, please contact us at:
+- Email: support@geotech.com
+- GitHub: [GeoTech Repository](https://github.com/your-username/geotech)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+- Thanks to our contributors and the open-source community for their support.
+- Special appreciation for the developers who created the underlying machine learning model and APIs.
+
