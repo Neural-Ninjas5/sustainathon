@@ -6,8 +6,27 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
 <!-- ![GeoTech Workflow](https://i.ibb.co/mG4mBxS/Whats-App-Image-2025-01-20-at-14-04-10.jpg "GeoTech Workflow") -->
 <img src = "https://i.ibb.co/mG4mBxS/Whats-App-Image-2025-01-20-at-14-04-10.jpg"/>
 
+## Concept Map
+<img src = "https://i.ibb.co/3TCMQQw/geotech-conceptmap-drawio.png"/>
 
-## Features
+## Technology Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Machine Learning**: Python-based advanced models for PV output prediction.
+- **APIs**: RESTful API integration for seamless data exchange.
+
+## Novelty
+Comprehensive Solar Panel Marketplace: Unlike traditional platforms, our website offers a one-stop solution for purchasing solar panels from over 10 different companies, allowing customers to compare prices, panel types, and specifications all in one place.
+
+AI/ML-Driven Solar Panel Recommendation: We leverage an advanced AI/ML model that uses the user’s location and average electricity usage to calculate the optimal number of solar panels required, their cost, and other crucial metrics—something not commonly offered by current platforms.
+
+Tailored Solar Solutions for Consumers: Our platform personalizes the solar panel buying experience by offering data-driven insights and custom recommendations, helping users make informed decisions on the right panel system for their needs.
+
+Seamless Integration of Price Comparison and Sustainability: We uniquely combine cost-effectiveness with sustainability by not only offering detailed price comparisons but also emphasizing environmentally friendly energy solutions, empowering users to make eco-conscious choices.
+
+
+## Solution
 
 ### 1. **Marketplace for Solar Panels**
    - A curated selection of high-quality solar panels available for purchase.
@@ -45,12 +64,7 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
 
 ---
 
-## Technology Stack
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Machine Learning**: Python-based advanced models for PV output prediction.
-- **APIs**: RESTful API integration for seamless data exchange.
+
 
 ---
 
@@ -80,7 +94,6 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
    npm start
    ```
 
-<<<<<<< HEAD
 4. Install dependencies for the frontend:
    ```bash
    cd ../frontend
@@ -141,54 +154,3 @@ For any inquiries or support, please contact us at:
 - Thanks to our contributors and the open-source community for their support.
 - Special appreciation for the developers who created the underlying machine learning model and APIs.
 
-=======
-6. Set up the machine learning model:
-   - Navigate to the `ml-model` directory.
-   - Install Python dependencies using `pip install -r requirements.txt`.
-   - Run the model server:
-     ```bash
-     python app.py
-     ```
-
-### Configuration
-Update the `.env` files in both the `backend` and `frontend` directories with the appropriate configurations, such as database credentials and API keys.
-
----
-
-## Usage
-1. Navigate to the homepage to explore available solar panels.
-2. Use the solar energy calculator to estimate your energy needs and costs.
-3. Access detailed documentation about schemes and subsidies.
-4. Add your selected solar panels to the cart and proceed to checkout.
-
----
-
-## Contributing
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes and push them to your forked repository.
-4. Submit a pull request for review.
-
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-For any inquiries or support, please contact us at:
-- Email: support@geotech.com
-- GitHub: [GeoTech Repository](https://github.com/your-username/geotech)
-
----
-
-## Acknowledgements
-- Thanks to our contributors and the open-source community for their support.
-- Special appreciation for the developers who created the underlying machine learning model and APIs.
-
->>>>>>> 6e10caf2bd4dfa4537669466031beca8f238dae8
