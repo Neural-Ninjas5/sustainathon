@@ -7,7 +7,7 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
 <img src = "https://i.ibb.co/mG4mBxS/Whats-App-Image-2025-01-20-at-14-04-10.jpg"/>
 
 ## Concept Map
-<img src = "https://i.ibb.co/h2ntq3n/Untitled-Diagram-drawio.png"/>
+<img src = "https://i.ibb.co/3TCMQQw/geotech-conceptmap-drawio.png"/>
 
 ## Technology Stack
 - **Frontend**: React.js, Tailwind CSS
