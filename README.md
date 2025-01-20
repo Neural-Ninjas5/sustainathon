@@ -138,14 +138,8 @@ We welcome contributions! To contribute:
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contact
 For any inquiries or support, please contact us at:
-- Email: support@geotech.com
 - GitHub: [GeoTech Repository](https://github.com/Neural-Ninjas5/sustainathon.git)
 
 ---
