@@ -3,7 +3,7 @@
 GeoTech is an innovative marketplace platform designed to empower users in transitioning to renewable energy by facilitating the purchase of solar panels. The platform offers advanced tools and features to calculate solar energy output and estimate the cost of setting up solar panels at a given location. With GeoTech, users can make informed decisions about their investment in solar energy and access essential documentation for various government and private schemes.
 
 ## Workflow
-![GeoTech Banner](../workflow.jpeg "GeoTech Platform")
+![GeoTech Workflow](../workflow.png "GeoTech Workflow")
 
 
 ## Features
