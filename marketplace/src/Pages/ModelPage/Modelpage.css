@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+.header h1 {
+    color:#39766a;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space below the heading */
+    font-weight: bold; /* Make the font bold */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+  
+  .main_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .input_section {
+    display: flex;
+    justify-content: center;
+    margin-top:14%;
+    width: 40%;
+    height: 20%;
+  }
+  
+  .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input_form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+  }
+  
+  .input_form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c9687;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input_form button:hover {
+    background-color: #3f8173;
+  }
+  
+  .image_section {
+    width: 50%;
+    height: 500px; 
+    overflow: hidden; 
+    border-radius: 10px; 
+  }
+  
+  .image_section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+    border-radius: 10px; 
+  }
+  
+  .image_section img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .response_section {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .response {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .response h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    cursor: pointer;
+    background-color: #39766a;
+    color: white;
+  }
+  
+  td {
+    background-color: #e9ecef;
+  }
+  
+  th:hover {
+    background-color:#2d675b;
+  }
+  

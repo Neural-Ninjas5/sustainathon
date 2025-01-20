@@ -1,0 +1,108 @@
+.services-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  width: 1100px;
+  background: #39766a;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* Optional: Add box shadow */
+}
+
+.para {
+  color: white;
+  font-weight: 700;
+}
+
+.view-all-button {
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #73c347;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.view-all-button:hover {
+  background-color: #4a9820;
+}
+
+.services-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 800;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  /* Adjust alignment of cards */
+  gap: 20px;
+  /* Adjust gap between cards */
+  padding-bottom: 90px;
+  padding-top: 60px;
+  /* Add some bottom padding for space */
+}
+
+.cards-container .card {
+  flex: 0 0 auto;
+  /* Ensure cards do not grow or shrink */
+  width: 300px;
+  /* Set fixed width for each card */
+  margin: 0 10px;
+  /* Adjust horizontal margin for cards */
+}
+
+.setcd {
+  background-color: #F1F8E8;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Make the parent container take full viewport height */
+}
+
+/* .features-container {
+  position: relative;
+  background-color: #f0f8ff;
+ 
+}
+
+.cloud {
+  position: absolute;
+  top: -30%;
+  width: 60%;
+  height: 60%;
+  background-repeat: repeat-x;
+  background-size: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.cloud-1 {
+  background-image: url('../../assets/images/cloud-removebg-preview.png');
+  animation: moveClouds 30s linear infinite;
+  opacity: 1;
+}
+
+.cloud-2 {
+  background-image: url('../../assets/images/cloud-removebg-preview.png');
+  animation: moveClouds 60s linear infinite;
+  opacity: 0.4;
+  top: 20%;
+}
+
+@keyframes moveClouds {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+} */
