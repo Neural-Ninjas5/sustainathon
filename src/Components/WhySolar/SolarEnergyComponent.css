@@ -1,0 +1,30 @@
+.solar-energy-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .solar-energy-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .why{
+    color: white;
+    font-weight: 700;
+    padding: 50px;
+  }
+  .solar-energy-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .setcb{
+    background-color:#368374;
+  display: flex;
+  justify-content: center; 
+  align-items:flex-start; 
+  height: 100vh; 
+  border-top-left-radius: 30px; 
+  border-top-right-radius: 30px; 
+  }
