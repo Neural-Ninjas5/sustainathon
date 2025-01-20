@@ -14,7 +14,7 @@ GeoTech is an innovative marketplace platform designed to empower users in trans
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Machine Learning**: Python-based advanced models for PV output prediction.
-- **APIs**: RESTful API integration for seamless data exchange.
+- **APIs**:  FAST API for integrating ml model with our main server and RESTful APIs.
 
 ## Novelty
 Comprehensive Solar Panel Marketplace: Unlike traditional platforms, our website offers a one-stop solution for purchasing solar panels from over 10 different companies, allowing customers to compare prices, panel types, and specifications all in one place.
